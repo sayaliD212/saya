@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 3 elements to &apos;Resources&apos;&#x0D;&#x0A;- Original project: &apos;ExtendedReport&apos;&#x0D;&#x0A;- Destination element: &apos;Resources&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     chromedriver.exe&#x0D;&#x0A;     geckodriver.exe&#x0D;&#x0A;     IEDriverServer.exe" description="Copy files" element1="Resources/chromedriver.exe" element2="Resources/geckodriver.exe" element3="Resources/IEDriverServer.exe" files="3" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1576483700257" target="/Report/Resources" units="0" version="1.0"/>
+</session>

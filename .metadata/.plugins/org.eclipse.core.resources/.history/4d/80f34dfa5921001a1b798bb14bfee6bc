@@ -1,0 +1,55 @@
+package Case1;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+import cucumber.api.java.en.Given;
+import cucumber.api.java.en.Then;
+import cucumber.api.java.en.When;
+
+public class ParamaterizationCase2 {
+	WebDriver driver;
+	@Given("DemoWebShop website is launched")
+	public void demowebshop_website_is_launched() {
+	    // Write code here that turns the phrase above into concrete actions
+	   // throw new cucumber.api.PendingException();
+		System.setProperty("webDriver.chrome.driver","Resources\\chromedriver.exe");
+		driver = new ChromeDriver();
+		driver.manage().window().maximize();
+		driver.get("http://demowebshop.tricentis.com/");
+		
+	}
+
+	@Given("provides the valid data")
+	public void provides_the_valid_data() {
+	    // Write code here that turns the phrase above into concrete actions
+	    //throw new cucumber.api.PendingException();
+		
+	}
+
+	@Then("clicks on the register button")
+	public void clicks_on_the_register_button() {
+	    // Write code here that turns the phrase above into concrete actions
+	    //throw new cucumber.api.PendingException();
+	}
+
+	@Given("WebShop is launchedzzz")
+	public void webshop_is_launchedzzz() {
+	    // Write code here that turns the phrase above into concrete actions
+	    //throw new cucumber.api.PendingException();
+	}
+
+	@When("user enters va;id username {string}>")
+	public void user_enters_va_id_username(String string) {
+	    // Write code here that turns the phrase above into concrete actions
+	    //throw new cucumber.api.PendingException();
+	}
+
+	@Then("verify the login status")
+	public void verify_the_login_status() {
+	    // Write code here that turns the phrase above into concrete actions
+	    //throw new cucumber.api.PendingException();
+	}
+
+
+}

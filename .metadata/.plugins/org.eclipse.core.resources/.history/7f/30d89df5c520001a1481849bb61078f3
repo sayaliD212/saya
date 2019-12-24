@@ -1,0 +1,25 @@
+Feature: my validation on Demo Web Shop
+
+Scenario:  user access to register
+Given Demo Web Shop website is launched
+And User clicks on register
+When user enters data  
+Then clicks on submit button for register
+
+Scenario:  user access to Login with valid data
+Given registered user clicks on Login link
+And user enters valid credentials 
+Then clicks on Login Button
+
+
+Scenario:  user access to Search Item
+Given user clicks on search box
+And enters the product to be search
+Then clicks on Search button
+
+
+Scenario:  user access to Add product to cart
+Given searched products are displayed
+And selects the desired product
+Then clicks on add to cart
+

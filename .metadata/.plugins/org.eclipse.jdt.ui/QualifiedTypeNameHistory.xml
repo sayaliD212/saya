@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="org.testng.annotations.BeforeTest"/>
+<fullyQualifiedTypeName name="com.aventstack.extentreports.reporter.ExtentHtmlReporter"/>
+<fullyQualifiedTypeName name="com.aventstack.extentreports.ExtentTest"/>
+<fullyQualifiedTypeName name="com.aventstack.extentreports.ExtentReports"/>
+<fullyQualifiedTypeName name="org.testng.annotations.AfterMethod"/>
+<fullyQualifiedTypeName name="org.testng.ITestResult"/>
+<fullyQualifiedTypeName name="com.aventstack.extentreports.Status"/>
+<fullyQualifiedTypeName name="com.aventstack.extentreports.markuputils.MarkupHelper"/>
+<fullyQualifiedTypeName name="com.aventstack.extentreports.markuputils.ExtentColor"/>
+<fullyQualifiedTypeName name="org.testng.annotations.AfterTest"/>
+<fullyQualifiedTypeName name="cucumber.api.CucumberOptions"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="org.openqa.selenium.chrome.ChromeDriver"/>
+<fullyQualifiedTypeName name="org.openqa.selenium.By"/>
+<fullyQualifiedTypeName name="org.openqa.selenium.support.ui.ExpectedConditions"/>
+<fullyQualifiedTypeName name="junit.framework.Assert"/>
+<fullyQualifiedTypeName name="cucumber.api.java.en.Given"/>
+<fullyQualifiedTypeName name="cucumber.api.java.en.Then"/>
+<fullyQualifiedTypeName name="cucumber.api.java.en.When"/>
+<fullyQualifiedTypeName name="org.openqa.selenium.support.ui.WebDriverWait"/>
+<fullyQualifiedTypeName name="org.openqa.selenium.WebDriver"/>
+</qualifiedTypeNameHistroy>

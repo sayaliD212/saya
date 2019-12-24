@@ -1,0 +1,19 @@
+Feature: my validation on DemoWebShop
+
+  Scenario: user access to register
+    Given DemoWebShop website is launched
+    Then user click on register
+    And provides the valid data
+    Then clicks on the register button
+
+  Scenario Outline: user access to Login
+    Given WebShop is launchedzzz
+    When user enters va;id username "<uname">
+    And user enters valid password "<paswd">
+    Then verify the login status
+
+    Examples: 
+      | uname                   | paswd     |
+      | rajeshdandare@gmail.com | sayali    |
+      | mayuri@gmail.com        |    123456 |
+      | sayalidandare@gmail.com | sayali123 |
